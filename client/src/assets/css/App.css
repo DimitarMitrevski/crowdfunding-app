@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-error {
+  color: red;
+}
+.btn {
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #2d2d2d;
+  display: inline-block;
+  text-align: center;
+}
+
+.status {
+  padding: 0 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.status.fraud {
+  background-color: red;
+}
+
+.status.active {
+  background-color: yellowgreen;
+}
+.status.successful {
+  background-color: green;
+}
+
+span.raised {
+  background-color: white;
+  color: #2d2d2d;
+  border-radius: 3px;
+  padding: 0 5px;
+  float: right;
+  font-size: 1rem;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

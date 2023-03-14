@@ -1,0 +1,39 @@
+.campaign {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  min-height: 100vh;
+}
+.campaign .raised {
+  float: none;
+}
+.campaign p {
+  margin: 20px auto;
+  font-size: 1.2rem;
+}
+
+.campaign form input {
+  display: block;
+  margin: 0 auto;
+  height: 25px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px auto;
+}
+.campaign form label {
+  display: block;
+}
+.campaign form .btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #ffb978;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bolder;
+  border-width: 1px;
+  cursor: pointer;
+}
+.campaign .text-error {
+  padding-bottom: 10px;
+}
